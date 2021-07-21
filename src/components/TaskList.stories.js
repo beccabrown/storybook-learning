@@ -34,6 +34,9 @@ WithPinnedTasks.args = {
     { id: '6', title: 'Task 6 (pinned)', state: 'TASK_PINNED' },
   ],
 };
+WithPinnedTasks.parameters = {
+  jest: ['TaskList.test.js']
+}
 
 export const Loading = Template.bind({});
 Loading.args = {

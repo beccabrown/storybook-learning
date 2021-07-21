@@ -1,3 +1,7 @@
+import { addDecorator } from '@storybook/react'; // <- or your view layer
+import { withTests } from '@storybook/addon-jest';
+
+import results from '../src/.jest-test-results.json';
 import '../src/index.css';
 
 export const parameters = {
@@ -9,3 +13,9 @@ export const parameters = {
     },
   },
 };
+
+addDecorator(
+  withTests({
+    results,
+  })
+);
