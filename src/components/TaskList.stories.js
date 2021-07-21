@@ -26,9 +26,6 @@ Default.args = {
     { ...TaskStories.Default.args.task, id: '6', title: 'Task 6' },
   ],
 };
-Default.parameters = {
-  jest: ['TaskList.test.js'],
-};
 
 export const WithPinnedTasks = Template.bind({});
 WithPinnedTasks.args = {
