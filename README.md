@@ -9,6 +9,8 @@
   Chromatic's Intro to Storybook React template
 </h1>
 
+[![Chromatic Deployment](https://github.com/beccabrown/storybook-learning/actions/workflows/chromatic.yml/badge.svg)](https://github.com/beccabrown/storybook-learning/actions/workflows/chromatic.yml)
+
 This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
 
 ## 🚅  Quick start

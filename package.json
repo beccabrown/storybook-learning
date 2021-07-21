@@ -24,7 +24,9 @@
     "web-vitals": "^0.2.4"
   },
   "jest": {
-    "watchPathIgnorePatterns": ["src/.jest-test-results.json"]
+    "watchPathIgnorePatterns": [
+      "src/.jest-test-results.json"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,7 +34,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "prebuild:storybook": "yarn run test:generate-output",
+    "prebuild:storybook": "yarn run test:generate-output --watchAll=false",
     "build:storybook": "build-storybook -s public",
     "test:generate-output": "yarn test --json --outputFile=src/.jest-test-results.json --coverage=true"
   },
