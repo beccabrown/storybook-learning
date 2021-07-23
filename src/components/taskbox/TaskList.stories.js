@@ -3,11 +3,11 @@ import { withTests } from '@storybook/addon-jest';
 
 import { PureTaskList } from './TaskList';
 import * as TaskStories from './Task.stories';
-import results from '../.jest-test-results.json';
+import results from '../../.jest-test-results.json';
 
 export default {
   component: PureTaskList,
-  title: 'TaskList',
+  title: 'TaskBox/TaskList',
   decorators: [withTests({ results }), story => <div style={{ padding: '3rem' }}>{story()}</div>],
 };
 
