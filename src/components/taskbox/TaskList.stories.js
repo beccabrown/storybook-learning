@@ -1,12 +1,14 @@
 import React from 'react';
+import { withTests } from '@storybook/addon-jest';
 
 import { PureTaskList } from './TaskList';
 import * as TaskStories from './Task.stories';
+import results from '../../.jest-test-results.json';
 
 export default {
   component: PureTaskList,
-  title: 'TaskList',
-  decorators: [story => <div style={{ padding: '3rem' }}>{story()}</div>],
+  title: 'TaskBox/TaskList',
+  decorators: [withTests({ results }), story => <div style={{ padding: '3rem' }}>{story()}</div>],
 };
 
 const Template = args => <PureTaskList {...args} />;
@@ -34,6 +36,9 @@ WithPinnedTasks.args = {
     { id: '6', title: 'Task 6 (pinned)', state: 'TASK_PINNED' },
   ],
 };
+WithPinnedTasks.parameters = {
+  jest: ['TaskList.test.js']
+}
 
 export const Loading = Template.bind({});
 Loading.args = {

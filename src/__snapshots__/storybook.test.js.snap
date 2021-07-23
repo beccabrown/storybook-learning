@@ -1,20 +1,341 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots InboxScreen Default 1`] = `
+exports[`Storyshots DisplayResults/BootstrapAccordion Default 1`] = `
+<div
+  className="accordion"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-header"
+      onClick={[Function]}
+    >
+      Accordion
+    </div>
+    <div
+      aria-expanded={null}
+      className="collapse"
+    >
+      <div
+        className="card-body"
+      >
+        Item 1
+      </div>
+    </div>
+    <div
+      aria-expanded={null}
+      className="collapse"
+    >
+      <div
+        className="card-body"
+      >
+        Item 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots DisplayResults/MUIAccordion Default 1`] = `
+<div
+  className="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    aria-controls="panel0a-content"
+    aria-disabled={false}
+    aria-expanded={false}
+    className="MuiButtonBase-root MuiAccordionSummary-root"
+    id="panel0a-header"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <div
+      className="MuiAccordionSummary-content"
+    >
+      <p
+        className="MuiTypography-root makeStyles-heading-1 MuiTypography-body1"
+      >
+        Accordion 1
+      </p>
+    </div>
+    <div
+      aria-disabled={false}
+      aria-hidden={true}
+      className="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role={null}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots DisplayResults/MUIAccordion Multiple 1`] = `
+Array [
+  <div
+    className="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      aria-controls="panel0a-content"
+      aria-disabled={false}
+      aria-expanded={false}
+      className="MuiButtonBase-root MuiAccordionSummary-root"
+      id="panel0a-header"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiAccordionSummary-content"
+      >
+        <p
+          className="MuiTypography-root makeStyles-heading-2 MuiTypography-body1"
+        >
+          Accordion 1
+        </p>
+      </div>
+      <div
+        aria-disabled={false}
+        aria-hidden={true}
+        className="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role={null}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiAccordion-root MuiAccordion-rounded MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      aria-controls="panel1a-content"
+      aria-disabled={false}
+      aria-expanded={false}
+      className="MuiButtonBase-root MuiAccordionSummary-root"
+      id="panel1a-header"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiAccordionSummary-content"
+      >
+        <p
+          className="MuiTypography-root makeStyles-heading-2 MuiTypography-body1"
+        >
+          Accordion 2
+        </p>
+      </div>
+      <div
+        aria-disabled={false}
+        aria-hidden={true}
+        className="MuiButtonBase-root MuiIconButton-root MuiAccordionSummary-expandIcon MuiIconButton-edgeEnd"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role={null}
+        tabIndex={null}
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Navigation/NavBar Default 1`] = `
+<nav
+  className="navbar navbar-expand navbar-light bg-light"
+>
+  <a
+    className="navbar-brand btn btn-light"
+    href="/"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    <img
+      alt="React Bootstrap logo"
+      height="30"
+      src="https://react-bootstrap.github.io/logo.svg"
+      width="30"
+    />
+  </a>
+  <div
+    className="me-auto navbar-nav nav-pills"
+    onKeyDown={[Function]}
+  >
+    <div
+      className="nav-item"
+    >
+      <a
+        className="nav-link active"
+        data-rb-event-key="/"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Home
+      </a>
+    </div>
+    <div
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        data-rb-event-key="/about"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        About
+      </a>
+    </div>
+    <div
+      className="nav-item"
+    >
+      <a
+        className="nav-link"
+        data-rb-event-key="/search"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Search
+      </a>
+    </div>
+  </div>
+</nav>
+`;
+
+exports[`Storyshots Navigation/NavBarItem Default 1`] = `
+<div
+  className="nav-item"
+>
+  <a
+    className="nav-link"
+    href="#"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+  >
+    Home
+  </a>
+</div>
+`;
+
+exports[`Storyshots TaskBox/InboxScreen Default 1`] = `
 <div
   className="page lists-show"
 >
-  <nav>
-    <h1
-      className="title-page"
-    >
-      <span
-        className="title-wrapper"
-      >
-        Taskbox
-      </span>
-    </h1>
-  </nav>
   <div
     className="list-items"
   >
@@ -41,6 +362,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -81,6 +407,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -121,6 +452,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -161,6 +497,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -201,6 +542,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -241,6 +587,11 @@ exports[`Storyshots InboxScreen Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -262,7 +613,7 @@ exports[`Storyshots InboxScreen Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots InboxScreen Error 1`] = `
+exports[`Storyshots TaskBox/InboxScreen Error 1`] = `
 <div
   className="page lists-show"
 >
@@ -286,7 +637,7 @@ exports[`Storyshots InboxScreen Error 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Archived 1`] = `
+exports[`Storyshots TaskBox/Task Archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
 >
@@ -310,6 +661,11 @@ exports[`Storyshots Task Archived 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -321,7 +677,7 @@ exports[`Storyshots Task Archived 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Default 1`] = `
+exports[`Storyshots TaskBox/Task Default 1`] = `
 <div
   className="list-item TASK_INBOX"
 >
@@ -345,6 +701,11 @@ exports[`Storyshots Task Default 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -364,7 +725,55 @@ exports[`Storyshots Task Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Pinned 1`] = `
+exports[`Storyshots TaskBox/Task Long Title 1`] = `
+<div
+  className="list-item TASK_INBOX"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkbox-custom"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
+      type="text"
+      value="This task's name is absurdly large. In fact, I think if I keep going I might end up with content overflow. What will happen? The star that represents a pinned task could have text overlapping. The text could cut-off abruptly when it reaches the star. I hope not!"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        className="icon-star"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskBox/Task Pinned 1`] = `
 <div
   className="list-item TASK_PINNED"
 >
@@ -388,6 +797,11 @@ exports[`Storyshots Task Pinned 1`] = `
     <input
       placeholder="Input title"
       readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
       type="text"
       value="Test Task"
     />
@@ -407,7 +821,7 @@ exports[`Storyshots Task Pinned 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList Default 1`] = `
+exports[`Storyshots TaskBox/TaskList Default 1`] = `
 <div
   style={
     Object {
@@ -441,6 +855,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -481,6 +900,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -521,6 +945,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -561,6 +990,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -601,6 +1035,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
@@ -641,6 +1080,11 @@ exports[`Storyshots TaskList Default 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6"
         />
@@ -662,7 +1106,7 @@ exports[`Storyshots TaskList Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList Empty 1`] = `
+exports[`Storyshots TaskBox/TaskList Empty 1`] = `
 <div
   style={
     Object {
@@ -694,7 +1138,7 @@ exports[`Storyshots TaskList Empty 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList Loading 1`] = `
+exports[`Storyshots TaskBox/TaskList Loading 1`] = `
 <div
   style={
     Object {
@@ -841,7 +1285,7 @@ exports[`Storyshots TaskList Loading 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaskList With Pinned Tasks 1`] = `
+exports[`Storyshots TaskBox/TaskList With Pinned Tasks 1`] = `
 <div
   style={
     Object {
@@ -875,6 +1319,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 6 (pinned)"
         />
@@ -915,6 +1364,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 1"
         />
@@ -955,6 +1409,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 2"
         />
@@ -995,6 +1454,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 3"
         />
@@ -1035,6 +1499,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 4"
         />
@@ -1075,6 +1544,11 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         <input
           placeholder="Input title"
           readOnly={true}
+          style={
+            Object {
+              "textOverflow": "ellipsis",
+            }
+          }
           type="text"
           value="Task 5"
         />
