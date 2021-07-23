@@ -97,7 +97,7 @@
   },
   "release": {
     "branches": [
-      "main"
+      "master"
     ],
     "plugins": [
       [
@@ -136,7 +136,7 @@
         {
           "assets": [
             {
-              "path": "dist/*",
+              "path": "storybook-static/*",
               "label": "Packaged release"
             }
           ]
