@@ -37,7 +37,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "lint": "eslint -o eslintLog.html -f html --color src",
     "storybook": "start-storybook -p 6006 -s public",
     "prebuild:storybook": "yarn run test:generate-output --watchAll=false",
     "build:storybook": "build-storybook -s public",
